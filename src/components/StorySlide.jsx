@@ -22,7 +22,7 @@ const textVariants = {
 
 const StorySlide = () => {
   return (
-    <section className="min-h-screen w-full bg-[#e0e0e0] py-20 px-8 flex flex-col justify-center items-center space-y-12 text-center">
+    <section className="min-h-screen w-full bg-white/50 backdrop-blur-md py-20 px-8 flex flex-col justify-center items-center space-y-12 text-center">
       {storyPoints.map((point) => (
         <motion.p
           key={point.id}

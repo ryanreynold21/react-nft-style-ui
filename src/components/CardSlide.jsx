@@ -53,7 +53,7 @@ const cardVariants = {
 
 const CardSlide = () => {
   return (
-    <section className="min-h-screen w-full bg-[#f0f0f0] py-20 px-4 flex items-center">
+    <section className="min-h-screen w-full bg-white backdrop-blur-md py-20 px-4 flex items-center">
       <div className="max-w-6xl mx-auto">
         <motion.div
           className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 w-full"
@@ -65,7 +65,7 @@ const CardSlide = () => {
           {cardData.map((card) => (
             <motion.div
               key={card.id}
-              className="bg-white rounded-lg shadow-md overflow-hidden"
+              className="bg-white rounded-lg shadow-lg overflow-hidden"
               variants={cardVariants}
             >
               <img
