@@ -26,7 +26,7 @@ const StorySlide = () => {
       {storyPoints.map((point) => (
         <motion.p
           key={point.id}
-          className="text-3xl md:text-5xl font-bold text-gray-700 max-w-3xl"
+          className="text-3xl md:text-5xl font-bold text-black max-w-3xl"
           variants={textVariants}
           initial="hidden"
           whileInView="visible"
